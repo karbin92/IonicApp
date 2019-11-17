@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { SearchType, SeriesService } from 'src/app/services/series.service';
 
 @Component({
   selector: 'app-series',
@@ -7,9 +9,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SeriesPage implements OnInit {
 
-  constructor() { }
+  results: Observable<any>;
+  searchTerm ='';
+  type: SearchType = SearchType.all;
+
+  constructor(private seriesService: SeriesService) { }
+  
 
   ngOnInit() {
+  }
+
+  searchChanged() {
+    this.results = this.seriesService.searchData(this.searchTerm, this.type);
+
+   // this.results.subscribe(res=> {
+    
+   // })
   }
 
 }
