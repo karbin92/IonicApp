@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1574080796149,
+  "timestamp": 1574081789046,
   "index": "'https://Karbin92.github.io/IonicApp/'/index.html",
   "assetGroups": [
     {
@@ -435,10 +435,10 @@
     "'https://Karbin92.github.io/IonicApp/'/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "'https://Karbin92.github.io/IonicApp/'/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "'https://Karbin92.github.io/IonicApp/'/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "'https://Karbin92.github.io/IonicApp/'/assets/shapes.svg": "5413e95adabcb2cb639970051f55e0ddb64ace53",
+    "'https://Karbin92.github.io/IonicApp/'/assets/shapes.svg": "638f87e27e6fc7ddfd6e6b262ea70d690f6c7011",
     "'https://Karbin92.github.io/IonicApp/'/common-es2015.5edae96ea7347712e3a3.js": "961f5cbbe6f5ef38fb7f77d35928dedbb01eee20",
     "'https://Karbin92.github.io/IonicApp/'/common-es5.eee1f3b72be3c9b53022.js": "7be79240248e4b61330c338bf14abb9b05a5976e",
-    "'https://Karbin92.github.io/IonicApp/'/index.html": "7629dd2689df885ad3d2ef8b5a7cdd19de6c02e0",
+    "'https://Karbin92.github.io/IonicApp/'/index.html": "f490987ee269fb650335c86f680e87dd1e463dc7",
     "'https://Karbin92.github.io/IonicApp/'/main-es2015.ef042a7b202de9084a68.js": "342ec822cb97fce09e61e5bdbff3462950e6890b",
     "'https://Karbin92.github.io/IonicApp/'/main-es5.f4b58b887c36a5afcaa8.js": "133fc6c102d7a43564d48760b2da7b0dfb072bd6",
     "'https://Karbin92.github.io/IonicApp/'/polyfills-es2015.12cfab524fcaaa2b6f02.js": "fefe3d6645e886c5820e97069bc5924c2167269b",
