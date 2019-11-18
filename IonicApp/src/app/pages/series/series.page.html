@@ -6,11 +6,11 @@
 
 <ion-content>
 
-  <ion-searchbar [(ngModel)]="searchTerm" (ionChange)="searchChanged($event)"></ion-searchbar> <!-- waits for the ionic change event, the input change of the searchbar and then calls the "SearchChanged" method in series.page.ts-->
+  <ion-searchbar [(ngModel)]="searchTerm" (ionChange)="searchChanged()"></ion-searchbar> <!-- waits for the ionic change event, the input change of the searchbar and then calls the "SearchChanged" method in series.page.ts-->
 
   <ion-item>
     <ion-label>Pick a category</ion-label>
-      <ion-select [(ngModel)]="type" (ionChange)="searchChanged($event)"> <!-- if one of the componenets are changed, data will be reloaded-->
+      <ion-select [(ngModel)]="type" (ionChange)="searchChanged()"> <!-- if one of the componenets are changed, data will be reloaded-->
         <ion-select-option value="">All</ion-select-option>
         <ion-select-option value="movie">Movie</ion-select-option>
         <ion-select-option value="series">Series</ion-select-option>
