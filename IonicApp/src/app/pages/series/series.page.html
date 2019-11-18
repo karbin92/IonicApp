@@ -23,6 +23,15 @@
     <ion-avatar slot ="start">
       <img [src]="item.Poster" *ngIf="item.Poster != 'N/A'"> <!-- Only display an image if there is one for the object -->
     </ion-avatar>
+
+    <ion-label text-wrap>
+      <h3>{{item.Title}}</h3>
+        {{item.Year}}
+    </ion-label>
+
+    <ion-icon slot="end" *ngIf="item.Type == 'movie'" name="videocam"></ion-icon> <!-- Icons come bundled with the application, can be found and "Ionicons.com" -->
+    <ion-icon slot="end" *ngIf="item.Type == 'series'" name="tv"></ion-icon>
+    <ion-icon slot="end" *ngIf="item.Type == 'game'" name="logo-game-controller-b"></ion-icon>
 </ion-item>
 </ion-list>
 </ion-content>
