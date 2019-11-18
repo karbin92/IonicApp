@@ -13,7 +13,7 @@ export enum SearchType {
   providedIn: 'root'
 })
 export class SeriesService {
-  url = 'http://www.omdbapi.com/';
+  url = 'https://www.omdbapi.com/';
   apiKey = '63777606';
 
   constructor(private http: HttpClient) { }

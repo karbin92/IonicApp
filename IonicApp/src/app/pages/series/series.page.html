@@ -1,16 +1,16 @@
 <ion-header>
   <ion-toolbar color="primary">
-    <ion-title>My Series Search</ion-title>
+    <ion-title>Entertainment Database</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content color="secondary">
 
   <ion-searchbar [(ngModel)]="searchTerm" (ionChange)="searchChanged()"></ion-searchbar> <!-- waits for the ionic change event, the input change of the searchbar and then calls the "SearchChanged" method in series.page.ts-->
 
-  <ion-item>
+  <ion-item color="tertiary">
     <ion-label>Pick a category</ion-label>
-      <ion-select [(ngModel)]="type" (ionChange)="searchChanged()"> <!-- if one of the componenets are changed, data will be reloaded-->
+      <ion-select color="secondary" [(ngModel)]="type" (ionChange)="searchChanged()"> <!-- if one of the componenets are changed, data will be reloaded-->
         <ion-select-option value="">All</ion-select-option>
         <ion-select-option value="movie">Movie</ion-select-option>
         <ion-select-option value="series">Series</ion-select-option>
