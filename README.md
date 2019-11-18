@@ -1,5 +1,5 @@
 # Media Entertainment Database
-Ionic app for Lab 1
+Ionic app for Lab 1 published on Firebase
 # Installation
 $ npm install 
 # 
