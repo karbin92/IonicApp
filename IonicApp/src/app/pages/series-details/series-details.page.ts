@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { SeriesService } from 'src/app/services/series.service';
-
+//reference : https://youtu.be/3QPbBJgNF94
 @Component({
   selector: 'app-series-details',
   templateUrl: './series-details.page.html',

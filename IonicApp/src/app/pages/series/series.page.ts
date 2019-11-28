@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { SearchType, SeriesService } from 'src/app/services/series.service';
-
+//reference: https://youtu.be/3QPbBJgNF94
 @Component({
   selector: 'app-series',
   templateUrl: './series.page.html',
